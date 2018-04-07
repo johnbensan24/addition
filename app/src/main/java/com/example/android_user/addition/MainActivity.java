@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 b = Integer.parseInt(secondnumber.getText().toString());
                 c = a + b;
 
-                Toast.makeText(MainActivity.this, "" + c , Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "the answer is fuckin " + c , Toast.LENGTH_LONG).show();
             }
         });
 
